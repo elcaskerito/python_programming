@@ -11,10 +11,15 @@
 #-- debut de la fonction --#
 
 def multi(nbr,taill):
-    i=0 
+
+    i=0
+
     re=0
+
     while i<taill:
+
         print(i+1,'*',nbr,"=",(i + 1) * nbr)
+
         i+=1
         
 #-- fin de la fonction --#
@@ -22,7 +27,9 @@ def multi(nbr,taill):
 print("programme pour afficher les tables de multiplication\n") # message  afficher a l'utilisateur
 
 # demander a l'utilisateur d'inserer les valeurs respectivement le multiplicateur et la taille suivi d'un separateur
+
 nbr=int(input('entrer la table que vous vouler : \n'))
+
 taill=int(input('la taille de votre table\n'))
 
 print('__________________________________________\n') # afficher un séparateur
